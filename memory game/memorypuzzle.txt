@@ -1,0 +1,25 @@
+python modules used : color and locals from pygame 
+                      random
+                      product from itertools
+                     
+ flow of game:
+  
+  intialize the values
+  fix the size of board
+  select resp shapes and colours
+  define all functions
+  main functons by calling functions in order
+  run main
+  
+functions:
+
+main() - 
+get_random_board()- board fills with random shapes.
+start_game_animation() - based on board height and width this generates coordinates randomly(by product fn)
+                           and starts game randomly showing 5 squares within time limit
+                           
+get_pos() - gets square coordinates
+draw_board() - Draws the entire board
+draw_select_box() - highlights box if mouse is not clicked on square.
+game_won() - if all boxes reveals then game won.
+game_won_animation() - flashes bg colors when game is won.
